@@ -1,10 +1,11 @@
-import { View, Text, FlatList } from 'react-native'
+import { FlatList } from 'react-native'
 import React from 'react'
 import WeatherListItem from './WeatherListItem'
 
 const WeathersList = ( { data } ) => {
     return (
         <FlatList
+            showsVerticalScrollIndicator={false}
             data={data}
             style={{ marginTop: 16 }}
             contentContainerStyle={{ gap: 16 }}
