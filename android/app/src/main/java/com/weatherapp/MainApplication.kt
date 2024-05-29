@@ -18,7 +18,7 @@ class MainApplication : Application(), ReactApplication {
         override fun getPackages(): List<ReactPackage> =
             PackageList(this).packages.apply {
               // Packages that cannot be autolinked yet can be added manually here, for example:
-              // add(MyReactNativePackage())
+               add(LocationPackage())
             }
 
         override fun getJSMainModuleName(): String = "index"
@@ -33,6 +33,7 @@ class MainApplication : Application(), ReactApplication {
     get() = getDefaultReactHost(applicationContext, reactNativeHost)
 
   override fun onCreate() {
+
     super.onCreate()
     SoLoader.init(this, false)
     if (BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {
