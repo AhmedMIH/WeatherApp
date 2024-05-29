@@ -3,7 +3,7 @@ import React from 'react'
 import GetLocation from '../Utils/Location'
 import LocationButton from './LocationButton'
 import Searchbar from './Searchbar'
-import { responsiveHeight } from '../Utils/Helper'
+import { debugLog, responsiveHeight } from '../Utils/Helper'
 
 const SearchComponent = ( { onChange } ) => {
     const getLocation = () => GetLocation.getCurrentPosition().then( ( position ) => {
@@ -11,7 +11,7 @@ const SearchComponent = ( { onChange } ) => {
         let lon = parseFloat( position.longitude ).toFixed( 2 )
         onChange( `${ lat },${ lon }` )
     } ).catch( ( error ) => {
-        console.log( error )
+        debugLog( error )
     } )
 
     const onChangeSearchQuery = ( searchQuery ) => {

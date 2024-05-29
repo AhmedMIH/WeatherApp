@@ -6,7 +6,6 @@ import Colors from '../Utils/Colors'
 import DetailsItem from '../Components/DetailsItem'
 
 const DetailsScreen = ( { route } ) => {
-    console.log( route.params.item )
     const item = route.params.item
     return (
         <LinearGradient colors={[ Colors.gradient, Colors.gradient2 ]} style={styles.container}>

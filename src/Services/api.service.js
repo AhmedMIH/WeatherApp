@@ -1,5 +1,6 @@
 import axios from "axios";
 import Config from "react-native-config";
+import { debugLog } from "../Utils/Helper";
 
 const apiClient = axios.create( {
     baseURL: "http://api.weatherapi.com/v1/",
@@ -17,7 +18,7 @@ export const axiosRequest = async options => {
         return response.data;
     };
     const handleError = error => {
-        console.log( error );
+        debugLog( error );
         throw new Error( error );
     };
     return apiClient
