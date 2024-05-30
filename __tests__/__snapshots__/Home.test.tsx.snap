@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen renders correctly 1`] = `
+<View
+  colors={
+    [
+      "#2E335A",
+      "#1C1B33",
+    ]
+  }
+  style={
+    {
+      "flex": 1,
+      "paddingHorizontal": 30.76923076923077,
+      "paddingVertical": 25.28909952606635,
+    }
+  }
+>
+  <View
+    testID="loading-spinner"
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 8,
+        "height": 75.86729857819905,
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#1C1B33",
+          "borderRadius": 8,
+          "height": "100%",
+          "justifyContent": "center",
+          "opacity": 1,
+          "paddingHorizontal": 15.384615384615385,
+          "paddingVertical": 18.966824644549764,
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/icons/location.png",
+          }
+        }
+        style={
+          {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#1C1B33",
+          "borderRadius": 8,
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingHorizontal": 23.076923076923077,
+        }
+      }
+    >
+      <Image
+        source={
+          {
+            "testUri": "../../../src/assets/icons/search.png",
+          }
+        }
+        style={
+          {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      />
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Enter a city or zip code"
+        placeholderTextColor="#FFFFFF"
+        style={
+          {
+            "color": "#FFFFFF",
+            "flex": 1,
+            "fontSize": 7,
+            "marginHorizontal": 15.384615384615385,
+          }
+        }
+        value=""
+      />
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "#4B32A1",
+            "borderRadius": 8,
+            "justifyContent": "center",
+            "opacity": 1,
+            "paddingHorizontal": 15.384615384615385,
+            "paddingVertical": 12.644549763033176,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF",
+              "fontSize": 7,
+              "fontWeight": "medium",
+            }
+          }
+        >
+          Search
+        </Text>
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "marginTop": 16,
+      }
+    }
+  />
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "gap": 16,
+      }
+    }
+    data={[]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    style={
+      {
+        "marginTop": 16,
+      }
+    }
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

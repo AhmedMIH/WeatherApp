@@ -3,7 +3,7 @@ import Config from "react-native-config";
 import { debugLog } from "../Utils/Helper";
 
 const apiClient = axios.create( {
-    baseURL: "http://api.weatherapi.com/v1/",
+    baseURL: Config.BASE_API_URL,
     headers: {
         "Content-type": "application/json"
     }
