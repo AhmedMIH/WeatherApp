@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
@@ -14,29 +14,20 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="EFl-6o-i5M">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="898"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="FY0-aj-DOu">
-                                        <rect key="frame" x="58" y="241" width="258" height="184"/>
-                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="splash" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JTK-JS-ru8">
+                                        <rect key="frame" x="-40" y="-46" width="485" height="982"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" systemColor="tintColor"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
-                                <constraints>
-                                    <constraint firstItem="FY0-aj-DOu" firstAttribute="leading" secondItem="EFl-6o-i5M" secondAttribute="leading" constant="58" id="3HS-n4-IGx"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="FY0-aj-DOu" secondAttribute="trailing" constant="51" id="5oj-2Y-6SE"/>
-                                    <constraint firstAttribute="trailing" secondItem="FY0-aj-DOu" secondAttribute="trailing" constant="59" id="FKv-oD-GNp"/>
-                                    <constraint firstItem="FY0-aj-DOu" firstAttribute="top" secondItem="EFl-6o-i5M" secondAttribute="top" constant="241" id="TPu-oM-8bm"/>
-                                    <constraint firstItem="FY0-aj-DOu" firstAttribute="top" secondItem="EFl-6o-i5M" secondAttribute="topMargin" constant="213" id="l9c-lp-HY8"/>
-                                    <constraint firstAttribute="bottom" secondItem="FY0-aj-DOu" secondAttribute="bottom" constant="242" id="mMv-ca-Xgt"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="FY0-aj-DOu" secondAttribute="bottom" constant="234" id="pVC-so-0w6"/>
-                                    <constraint firstItem="FY0-aj-DOu" firstAttribute="leading" secondItem="EFl-6o-i5M" secondAttribute="leadingMargin" constant="50" id="uat-aK-5E3"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
@@ -51,13 +42,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991.20000000000005" y="374.66266866566718"/>
+            <point key="canvasLocation" x="990.69767441860461" y="374.03433476394855"/>
         </scene>
     </scenes>
     <resources>
-        <image name="splash" width="43.5" height="43.5"/>
+        <image name="splash" width="428" height="926"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
