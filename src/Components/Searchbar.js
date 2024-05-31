@@ -25,6 +25,7 @@ const styles = StyleSheet.create( {
         alignItems: 'center',
         paddingHorizontal: responsiveWidth( 12 ),
         flex: 1,
+        height:responsiveHeight(50)
     },
     textInput: {
         flex: 1, marginHorizontal: responsiveWidth( 8 ),

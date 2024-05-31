@@ -1,4 +1,4 @@
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, Alert } from 'react-native'
 import React from 'react'
 import GetLocation from '../Utils/Location'
 import LocationButton from './LocationButton'
@@ -11,7 +11,8 @@ const SearchComponent = ( { onChange } ) => {
         let lon = parseFloat( position.longitude ).toFixed( 2 )
         onChange( `${ lat },${ lon }` )
     } ).catch( ( error ) => {
-        debugLog( error )
+        Alert.alert("Location Error",error + " ,Please make sure you granted location permission form setting ")
+        debugLog( "error",error )
     } )
 
     const onChangeSearchQuery = ( searchQuery ) => {

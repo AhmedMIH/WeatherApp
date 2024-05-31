@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Text, StyleSheet } from 'react-native'
+import { Text, StyleSheet, SafeAreaView } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import Spinner from 'react-native-loading-spinner-overlay'
 import SearchComponent from '../Components/SearchComponent'
@@ -42,6 +42,7 @@ const HomeScreen = () => {
 
 
     return (
+        <SafeAreaView style={{flex:1,backgroundColor:Colors.gradient}}>
         <LinearGradient colors={[ Colors.gradient, Colors.gradient2 ]} style={styles.container}>
             <Spinner visible={isLoading} />
             <SearchComponent searchQuery={searchQuery} onChange={setSearchQuery} />
@@ -52,6 +53,7 @@ const HomeScreen = () => {
                 </>
             }
         </LinearGradient>
+        </SafeAreaView>
     )
 }
 

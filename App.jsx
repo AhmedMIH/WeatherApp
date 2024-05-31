@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import AppNavigation from './src/Routes/AppNavigation';
 import Colors from './src/Utils/Colors';
 import 'react-native-gesture-handler';
+import Config from 'react-native-config';
 
 
 function App () {
