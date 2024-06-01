@@ -33,8 +33,13 @@ The Weather App is a React Native application designed to provide users with up-
 4. in ios
     ```sh
    pod install
-   ```   
-5. Run the application:
+   ```
+5. Create a `.env` file in the root directory with the following content:
+    ```plaintext
+    BASE_API_URL=http://api.weatherapi.com/v1/
+    API_KEY={Add your Key}
+    ```
+6. Run the application:
     ```sh
     npm run android-dev # for Android dev
     npm run android-prod-release # for Android release
@@ -44,6 +49,7 @@ The Weather App is a React Native application designed to provide users with up-
      ```sh
     npm start
     ```
+
 
 ## Project Structure
 
