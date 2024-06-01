@@ -28,10 +28,8 @@ The Weather App is a React Native application designed to provide users with up-
     ```
 3. Install the dependencies:
     ```sh
-    npm install
-    # or
-    yarn install
-    ```
+    npm install --force
+   
 4. in ios
     ```sh
    pod install
