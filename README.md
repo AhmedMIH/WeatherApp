@@ -38,7 +38,11 @@ The Weather App is a React Native application designed to provide users with up-
     ```sh
     npm run android-dev # for Android dev
     npm run android-prod-release # for Android release
-    npx react-native run-ios # for iOS
+    npm run ios # for iOS
+    ```
+    and then
+     ```sh
+    npm start
     ```
 
 ## Project Structure
